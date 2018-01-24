@@ -22,3 +22,11 @@ def take_a_number(arr, person)
   arr << person
   puts "Welcome, #{person}. You are number #{position} in line."
 end
+
+def now_serving(arr)
+  if arr.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{arr.shift}"
+  end
+end
