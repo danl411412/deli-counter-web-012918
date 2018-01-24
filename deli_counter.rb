@@ -7,10 +7,11 @@ def line(arr)
     line_position = 1
     arr.each do |name|
       current_line += "#{line_position.to_s}. #{name}"
-      line_position += 1
+
       if line_position < arr.size
         current_line += " "
       end
+      line_position += 1
     end
     puts current_line
   end
