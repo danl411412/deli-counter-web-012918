@@ -16,3 +16,9 @@ def line(arr)
     puts current_line
   end
 end
+
+def take_a_number(arr, person)
+  position = arr.length + 1
+  arr << person
+  puts "Welcome, #{person}. You are number #{position} in line."
+end
