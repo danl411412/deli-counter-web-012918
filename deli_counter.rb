@@ -11,6 +11,6 @@ def line(arr)
         current_line += " "
       end
     end
-    current_line
+    puts current_line
   end
 end
